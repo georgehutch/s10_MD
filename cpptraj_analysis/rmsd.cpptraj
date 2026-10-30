@@ -1,0 +1,6 @@
+parm *.prmtop
+trajin 50ns.nc
+rms first :1-32@P,O3',O5',C3',C4',C5' out rmsd_RNA.dat
+rms first :33-48@CA,C,N,O nofit out rmsd_peptide.dat
+run
+quit

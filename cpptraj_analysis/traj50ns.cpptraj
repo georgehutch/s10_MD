@@ -1,0 +1,10 @@
+parm *.prmtop
+trajin md10.nc
+trajin md20.nc
+trajin md30.nc
+trajin md40.nc 
+trajin md50.nc
+autoimage
+trajout 50ns.nc
+run
+quit

@@ -1,0 +1,10 @@
+parm *.prmtop
+trajin 50ns.nc
+rms first :1-32
+average crdset MyAvgStructure
+run
+rms ref MyAvgStructure :1-32
+atomicfluct :1-32@P,O3',O5',C3',C4',C5' byres out rmsf_avg_RNA.dat
+atomicfluct :33-48@CA byres out rmsf_avg_peptide_CA.dat
+run
+quit
