@@ -7,3 +7,7 @@ Molecular dynamics parameters and analysis files for Amber simulation of a RNA-b
 3) MD_submission = AMBER MD settings and slurm submission script for 50 ns trajectory
 4) cpptraj_analysis = Analysis scripts for processing trajectory and calculating RMSD, RMSF, and peptide binding clusters
 5) cluster_results = Representative structure of 5 clusters, and statistics of the clustering analysis
+
+References
+https://doi.org/10.1021/ACS.JPCLETT.6B01525
+https://doi.org/10.1016/j.ejmech.2023.115118
