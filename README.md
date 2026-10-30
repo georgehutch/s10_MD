@@ -1,5 +1,5 @@
 # s10_MD
-Molecular dynamics parameters and analysis files for Amber simulation of a RNA-bouns stapled s10 peptide. 
+Molecular dynamics parameters and analysis files for Amber simulation of a RNA-bound stapled s10 peptide. 
 
 # Contents
 1) staple_params = Amber parameters for staple residue fragments
