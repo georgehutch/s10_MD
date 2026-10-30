@@ -1,1 +1,29 @@
-thing
+Remark line goes here
+MASS
+C2                  12.0100      0.3600  sp2 arom. 5 memb.ring w/1 subst. (TRP)
+
+BOND
+CT-C2  248.40   1.5088      gaff2 c2-c3
+C2-HA  357.29   1.0882      gaff2 c2-ha
+C2-C2  436.00   1.3379      gaff2 c2-c2
+
+ANGLE
+CT-CT-C2    60.40     112.580   gaff2 c2-c3-c3
+CT-C2-HA    42.95     115.050   gaff2 c3-c2-ha
+CT-C2-C2    60.88     124.950   gaff2 c2-c2-c3
+HC-CT-C2    43.76     110.650   gaff2 c2-c3-hc
+HA-C2-C2    46.37     120.390   gaff2 c2-c2-ha
+
+DIHE
+X -C2-CT-X    6    0.000         0.000           2.000      gaff2 X -c2-c3-x
+X -C2-C2-X    4   26.600       180.000           2.000      gaff2 X -c2-c2-X
+CT-C2-C2-CT   1    5.780       180.000          -2.000      gaff2 c3-c2-c2-c3
+CT-C2-C2-CT   1    0.150         0.000          -1.000      gaff2 c3-c2-c2-c3
+CT-C2-C2-CT   1    1.330       180.000           3.000      gaff2 c3-c2-c2-c3
+HC-CT-C2-C2   1    0.260       180.000           3.000      gaff2 c2-c2-c3-hc
+
+IMPROPER
+CT-HA-C2-C2         1.1          180.0         2.0          Using the default value
+
+NONBON
+C2               1.908000    0.086000  sp2 arom. 5 memb.ring w/1 subst. (TRP)
